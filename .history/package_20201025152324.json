@@ -1,0 +1,25 @@
+{
+  "name": "getir-case-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --testEnvironment=node --verbose --forceExit --watchAll --maxWorkers=1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.10",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^26.6.1",
+    "superagent": "^6.1.0",
+    "supertest": "^5.0.0"
+  }
+}
